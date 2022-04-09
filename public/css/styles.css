@@ -1,0 +1,17 @@
+.carousel-caption {
+  transform: translateY(-50%) !important;
+  bottom: 0 !important;
+  top: 50% !important;
+  bottom: initial;
+}
+
+.featurette-divider {
+  margin: 5rem 0;
+}
+
+.brand {
+  position: absolute;
+  left: 50%;
+  margin-left: -75px !important; /* 50% of your logo width */
+  display: block;
+}
