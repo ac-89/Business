@@ -1,3 +1,7 @@
+main{
+    background-image: "https://images.unsplash.com/photo-1534595461757-4974c5072dff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"";
+}
+
 .has-bg-img { background: url('images/mohammad-rahmani-oXlXu2qukGE-unsplash.jpg')center center; background-size:cover; }
 
 .title, .subtitle{

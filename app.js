@@ -1,6 +1,7 @@
 const express = require(`express`);
 const app = express();
 const http = require(`http`);
+const ejs = require(`ejs`);
 const ejsMate = require(`ejs-mate`);
 const path = require(`path`);
 const nodemailer = require(`nodemailer`);
@@ -63,7 +64,7 @@ app.post("/send", (req, res) => {
 });
 
 app.get(`/`, (req, res) => {
-  res.render(`index`);
+  res.render(`home`);
 });
 
 app.route("/").get(function (req, res) {
